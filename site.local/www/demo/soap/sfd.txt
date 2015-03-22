@@ -1,0 +1,7 @@
+		<!--targetNamespace='http://localhost/soap'-->
+		<!--xmlns:tns='http://www.site.local/demo/soap/stock.wsdl'-->
+		<!--xmlns:soap='http://schemas.xmlsoap.org/wsdl/soap/' -->
+		<!--xmlns:xsd='http://www.w3.org/2001/XMLSchema' -->
+		<!--xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/' -->
+		<!--xmlns:wsdl='http://schemas.xmlsoap.org/wsdl/' -->
+		<!--xmlns='http://schemas.xmlsoap.org/wsdl/'> -->

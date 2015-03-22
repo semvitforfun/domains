@@ -1,0 +1,13 @@
+body{
+    font-family:  'Times New Roman', Arial, sans-serif;
+    font-size: 15pt;
+
+
+}
+p.cl1{
+    background-color: azure;
+}
+p.cl2{
+     background: url("../img/texture_hw.jpg") repeat;
+}
+

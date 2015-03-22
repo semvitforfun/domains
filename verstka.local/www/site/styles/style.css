@@ -1,0 +1,47 @@
+body{
+    background: url("../img/template.gif") repeat-x #DCD24E;
+    font-family: Arial, 'Times New Roman' sans-serif;
+    font-size: 90%;
+}
+#header table{
+    width: 100%;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+}
+#logo img{
+    width: 300px;
+}
+#text-logo{
+    text-align: center;
+    width: 100%;
+}
+p:first-letter {
+    color: red;
+    font-size: 200%;
+}
+#left li {
+    list-style: none;
+}
+#left ul {
+    margin-top: 5px;
+    padding-left: 10px;
+}
+#left h2{
+    margin: 0;
+}
+#left a:link, a:visited{
+    color: #00f
+}
+#left{
+    width: 200px;
+    border-right: 1px solid black;
+    float: left;
+}
+#right {
+    padding-left: 10px;
+    border-left: 1px solid black;
+    margin-left: 200px;
+}
+#content {
+    border-bottom: 1px solid black;
+}

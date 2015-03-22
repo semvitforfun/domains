@@ -1,0 +1,2 @@
+
+$("#rp_captcha").realperson();

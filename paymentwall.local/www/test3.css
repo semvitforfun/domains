@@ -1,0 +1,32 @@
+/*body{*/
+    /*margin: 0px;*/
+/*}*/
+#header {
+    background: darkred;
+    width: 715px;
+    height: 100px;
+}
+#menu {
+    background: oldlace;
+    width: 190px;
+    height: 300px;
+    float: left;
+}
+#content {
+    background: oldlace;
+    width: 525px;
+    height: 300px;
+    float: left;
+}
+#news {
+    background: yellow;
+    width: 150px;
+    height: 280px;
+    float: right;
+    margin: 10px;
+}
+#footer{
+    background:  darkred;
+    width: 715px;
+    height: 30px;
+}

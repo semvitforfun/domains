@@ -1,0 +1,37 @@
+#first, #second, #third, #fourth{
+    border: 1px solid red;
+    margin: 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+#first {
+    background: yellow;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    color: blue;
+}
+#second {
+    background: yellow;
+    width: 300px;
+    text-align: center;
+    color: blue;
+}
+
+#third, #fourth {
+    background: pink;
+    width: 270px;
+    height: 100px;
+    text-align: left;
+    text-transform: capitalize;
+    word-spacing: 8px;
+    color: red;
+}
+#first:first-letter{
+    color: red;
+    font-size: 28px;
+}
+#third:first-letter, #fourth:first-letter {
+    color: blue;
+    font-size: 28px;
+}

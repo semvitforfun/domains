@@ -1,0 +1,18 @@
+<html>
+<head>
+    <meta content="text/html" charset="utf-8">
+    <title>Заголовок документа</title>
+</head>
+<body>
+
+<form action='test_filesend.php' method='post' enctype="multipart/form-data">
+    <!-- Поле файла и кнопка Обзор -->
+    <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
+    <input type='file' name='fileToUpload'  />
+    <br />
+    <!-- Кнопка отправки данных -->
+    <input type='submit' value='Send File' />
+</form>
+
+</body>
+</html>

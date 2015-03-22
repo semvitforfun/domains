@@ -1,0 +1,254 @@
+@charset "UTF-8";
+
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+    margin:0;
+    padding:0;
+}
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img{
+    border:1; /**/
+}
+address,caption,cite,code,dfn,em,strong,th,var{
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul{
+    list-style:none;
+}
+caption,th{
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after{
+    content:'';
+}
+abbr,acronym{
+    border:0;
+}
+a img {
+    border: none;
+}
+
+/* pf */
+
+body{
+    background-color: #DFEAEB;
+    padding: 15px 0 0;
+}
+.pf-wrapper{
+    background-color: #FFFFFF;
+    border: 1px solid #D6E1C5;
+    font-family: Trebuchet MS;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0 auto;
+    padding: 0 0 30px;
+    width: 800px;
+    -moz-box-shadow: 0px 0px 5px 5px #999;
+    -webkit-box-shadow: 0px 0px 5px 5px #999;
+    box-shadow: 0px 0px 5px 5px #999;
+}
+
+.pf-wrapper .warnings{
+    color: #FF0000;
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+}
+.pf-wrapper .pf-header{
+    background-color: #87C257; /* top color */
+    color: #FFFFFF;   /* top text color */
+    margin: 0 auto;
+    padding: 30px 0 0;
+}
+.pf-wrapper .pf-header p{
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: center;
+}
+.pf-wrapper .pf-header p.small{
+    border-top: 1px solid #D9E8ED;
+    font-size: 11px;
+    font-weight: normal;
+    margin: 0 auto;
+    padding: 4px 0 10px;
+    text-align: center;
+    width: 70%;
+}
+.pf-wrapper table{
+    margin: 0px auto;
+}
+.pf-wrapper table tr{
+}
+.pf-wrapper table tr td{
+    padding: 4px;
+    text-align: right;
+}
+.pf-wrapper table tr td.header{
+    background: url('block_bg.jpg') no-repeat scroll center center transparent;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 20px 4px;
+    text-align: center;
+}
+
+
+
+/* table manual configure */
+.pf-wrapper table tr td.l1{
+	vertical-align: top;
+	text-align: left;
+	padding-left: 20px;
+
+}
+
+.pf-wrapper table tr td.l2{
+	vertical-align: top;
+	text-align: left;
+	padding-left: 40px;
+
+}
+
+.pf-wrapper table tr td.l3{
+	vertical-align: top;
+	text-align: left;
+	padding-left: 60px;
+
+}
+
+.pf-wrapper table tr td.l4{
+	vertical-align: top;
+	text-align: left;
+	padding-left: 80px;
+}
+
+.pf-wrapper table tr td.info1{
+	vertical-align: bottom;
+	text-align: left;
+	padding-left: 20px;
+	color: blue;
+	font-size: 10px;
+}
+
+.pf-wrapper table tr td.warn1{
+	vertical-align: bottom;
+	text-align: left;
+	padding-left: 20px;
+	color: red;
+	font-size: 14px;
+}
+
+.pf-wrapper table tr td.warn2{
+	vertical-align: bottom;
+	text-align: left;
+	padding-left: 40px;
+	color: red;
+	font-size: 10px;
+}
+
+.pf-wrapper table tr td.warn3{
+	vertical-align: bottom;
+	text-align: left;
+	padding-left: 60px;
+	color: red;
+	font-size: 10px;
+}
+
+.pf-wrapper table tr td.warn4{
+	vertical-align: bottom;
+	text-align: left;
+	padding-left: 80px;
+	color: red;
+	font-size: 10px;
+}
+
+
+
+.pf-wrapper table tr td.q1{
+	vertical-align: bottom;
+	text-align: left;
+	padding-left: 20px;
+	font-size: 16px;
+}
+
+.pf-wrapper table tr td.q2{
+	vertical-align: bottom;
+	text-align: left;
+	padding-left: 40px;
+	font-size: 14px;
+}
+
+.pf-wrapper table tr td.q3{
+	vertical-align: bottom;
+	text-align: left;
+	padding-left: 60px;
+	font-size: 12px;
+}
+
+.pf-wrapper table tr td.q4{
+	vertical-align: bottom;
+	text-align: left;
+	padding-left: 80px;
+	font-size: 10px;
+}
+
+.pf-wrapper table tr td  INPUT.i1{
+	height:16px;
+	size: 10;
+	maxlength: 100; 
+}
+.pf-wrapper table tr td INPUT.i2{
+	height:14px;
+}
+.pf-wrapper table tr td INPUT.i3{
+	height:12px;
+}
+.pf-wrapper table tr td INPUT.i4{
+	height:10px;
+}
+
+.pf-wrapper table tr td INPUT.iread{
+	color:blue; 
+	background-color:#F1F5F0;
+	height:12px;
+}
+
+
+
+.pf-wrapper span.red{
+    color:#ff0000;
+    margin: 0 2px;
+}
+.pf-wrapper input{
+    padding:2px 6px;
+}
+.pf-wrapper input:hover,.pf-wrapper input:focus{
+    background-color:#EEF3E8;
+}
+.pf-wrapper input[type="submit"]{
+    background: url('block_bg.jpg') no-repeat scroll center center transparent;
+    border: 1px solid #fff;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 6px 10px;
+}
+.pf-wrapper input[type="submit"]:hover{
+    border: 1px solid #267579;
+    color: #267579;
+}
+
+
+
+
+

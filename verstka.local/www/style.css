@@ -1,0 +1,40 @@
+body {
+    background: url("img/seno.jpg") repeat center top transparent;
+    font-family: Arial, 'Times New Roman', Helvetica, sans-serif;
+    font-size: 15pt;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+
+    font-weight: bold;
+    font-style: italic;
+    line-height: 150%;
+    text-indent: 12px;
+    color: darkgray;
+
+    margin: 0;
+}
+p span{
+    text-decoration: underline;
+}
+
+p.cl1 {
+    background-color: #040;
+    border: 1px solid #bbb;
+}
+p.cl2{
+    border-bottom: 1px solid #bbbbbb;
+    border-left: 4px dashed red;
+    border-right: 4px dashed blue;
+    border-top: 4px solid #bbb;
+}
+
+div{
+    background-color: yellow;
+    border: 8px solid black;
+    width: 30%;
+    margin: 10px auto;
+    padding: 10px;
+}

@@ -1,0 +1,15 @@
+.table-sort-az {
+    color: red;
+    background-image: url("../images/sort_ascend.png");
+    background-repeat: no-repeat;
+    background-position: 5px;
+    text-indent: 20px;
+}
+
+.table-sort-za {
+    color: green;
+    background-image: url("../images/sort_descend.png");
+    background-repeat: no-repeat;
+    background-position: 5px;
+    text-indent: 20px;
+}
